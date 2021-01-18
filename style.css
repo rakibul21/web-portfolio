@@ -1,0 +1,20 @@
+body{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: blue;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 150%;
+}
