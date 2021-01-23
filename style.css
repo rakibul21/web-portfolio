@@ -1,14 +1,24 @@
 body{
+    margin: 0%;
     font-family: "Sofia", sans-serif;
     font-size: 30px;
     text-shadow: 3px 3px 3px #ababab;
 }
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
 h1{
     font-size: 50px;
 }
 .name-highlight{
     color: blue;
 }
+.top-banner{
+    border: none  ;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .half-width{
     width: 40%;
     float: left;
@@ -17,4 +27,71 @@ h1{
 }
 .half-width img{
     width: 150%;
+}
+
+section{
+    height: 500px;
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.second-part-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: ;
+}
+.second-part-half img{
+    width: 100%;
+    
+
+}
+
+
+
+.dream-area{
+    background-image: 
+}
+.orange-highlight{
+    color: orange;
+}
+.ex{
+    color: purple;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.experience-area{
+    border: none  ;
+    background-image: 
+    background-repeat: no-repeat;}
+.dream-area{
+    border: none  ;
+    background-image: 
+    background-repeat: no-repeat;}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 120%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato) ;
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,white) ;
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
